@@ -9,7 +9,7 @@ pipeline {
 
     stage('checkout') {
       steps {
-        checkout
+        git branch: 'main', url: 'https://github.com/xonatis-academy/epsi-dev709-ci.git'
       }
     }
 
@@ -58,6 +58,6 @@ pipeline {
           
       }
     }
-    
+
   }
 }
