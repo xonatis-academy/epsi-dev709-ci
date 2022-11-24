@@ -10,4 +10,8 @@ public class MockTicketProvider extends CancelableProvider {
         
     }
 
+    @Override
+    public boolean delete(int reference) {
+        return true;
+    }
 }

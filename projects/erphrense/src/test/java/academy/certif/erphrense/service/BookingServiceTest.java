@@ -29,4 +29,10 @@ public class BookingServiceTest
         Cancelable result = BookingServiceTest.bookingService.book(null, ticket);
         assertTrue(result.getReference() != 0);
     }
+
+    @Test
+    public void cancel_shouldReturn_true() {
+        boolean result = BookingServiceTest.bookingService.cancel(0);
+        assertTrue(result);
+    }
 }
