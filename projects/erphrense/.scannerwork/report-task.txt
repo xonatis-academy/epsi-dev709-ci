@@ -1,0 +1,6 @@
+projectKey=erphrense
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=erphrense
+ceTaskId=AYStN3Vu9_GiX7_nVdDo
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYStN3Vu9_GiX7_nVdDo
